@@ -1,0 +1,43 @@
+# ML model files
+*.h5
+*.keras
+*.hdf5
+*.pb
+*.tflite
+*.onnx
+*.pth
+*.pt
+
+# Datasets / images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.webp
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini

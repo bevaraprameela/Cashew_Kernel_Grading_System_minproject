@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="images/iml.png" alt="Logo">
+                <div class="left">Cashew Kernel Grading</div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" onclick="loadPage('home')">Home</a></li>
+                    <li><a href="#" onclick="loadPage('about')">About</a></li>
+                    <li><a href="#" onclick="loadPage('tryit')">Try It</a></li>
+                    <li><a href="#" onclick="loadPage('team')">Team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="content"></main>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

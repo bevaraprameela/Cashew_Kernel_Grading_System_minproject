@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashew Kernel Grading</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: url('res.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #00204a; /* Dark blue text color */
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+        }
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Adjusted for better spacing */
+            height: 60px;
+            background-color:grey;/*rgba(18, 18, 62, 0.8); /* Dark semi-transparent background */
+            padding: 0 20px; /* Adjusted padding for better spacing */
+            z-index: 1000;
+        }
+        nav .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        nav .logo-container img {
+            height: 40px; /* Adjusted logo height */
+            margin-right: 10px;
+            border-radius: 12px; /* Rounded logo shape */
+            background-color: white; /* Optional background color for logo */
+        }
+        nav .logo-container .left {
+            font-size: 1.5rem;
+            color: #FFD700; /* Gold color */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 15px; /* Reduced margin for better spacing */
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            transition: color 0.3s, font-size 0.3s, background-color 0.3s;
+        }
+        nav ul li a:hover {
+            color: rgb(153, 153, 226); /* Light purple hover color */
+            font-size: 1.2rem;
+            background-color: rgba(18, 18, 62, 1); /* Solid dark background on hover */
+            border-radius: 4px;
+        }
+        .firstsection {
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            height: calc(100vh - 60px); /* Adjusted height for nav bar */
+            padding: 0 50px; /* Adjusted padding */
+            text-align: center; /* Center text */
+        }
+        .rightsection {
+            text-align: center; /* Align text to the center */
+            color: white;
+            font-size: 2rem;
+        }
+        .rightsection div {
+            margin-bottom: 20px;
+        }
+        #element {
+            color: #FFD700; /* Gold color */
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="iml.png" alt="Logo"> <!-- Replace with your logo image path -->
+                <div class="left">Cashew Kernel Grading</div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about1.html" target="_blank">About</a></li>
+                    <li><a href="tryit.htm" target="_blank">Try It</a></li>
+                    <li><a href="contactus.html" target="_blank">Details</a></li>
+                    <li><a href="team.html" target="_blank">Team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="rightsection">
+                <div><i>Welcome to our page</i></div>
+                <span id="element"></span>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<span style="color: #FFD700;">Cashew Grading</span>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
+
